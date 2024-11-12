@@ -1,0 +1,19 @@
+body{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 10vh 20fr 20fr 40fr 10fr;
+}
+
+header{
+    border: 3px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bild-rubrik{
+    height: 75px;
+    width: 75px;
+}
+
+main{}
