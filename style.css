@@ -3,6 +3,7 @@ body {
     grid-template-columns: 2fr 2fr;
     grid-template-rows: 15vh 20fr 20fr 40fr 10fr;
     gap: 10px;
+    background-color: #FFDDFC;
 }
 
 header {
@@ -35,11 +36,25 @@ header {
     margin-top: 20px;
 }
 
+#information{
+    border: 3px solid #265B58;
+    border-radius: 5px;
+    margin-left: 100px;
+    width: 50%;
+    padding: 20px;
+    background-color: #FFA2A2;
+    width: 400px;
+}
+
 #bild-1 {
     grid-row: 2/3;
     grid-column: 2/3;
-    height: 200px;
-    width: 400px;
+    height: 250px;
+    width: 430px;
+    margin-left: 100px;
+    margin-top: 20px;
+    border: 3px solid #265B58;
+    border-radius: 3px;
 }
 
 #bild-2 {
@@ -52,11 +67,3 @@ header {
     border: 3px solid black;
 }
 
-#test {
-    border: 3px solid black;
-    margin-left: 100px;
-    width: 50%;
-    padding: 10px;
-    background-color: #FFA2A2;
-    width: 400px;
-}
