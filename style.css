@@ -1,11 +1,11 @@
-body{
+body {
     display: grid;
     grid-template-columns: 2fr 2fr;
     grid-template-rows: 10vh 20fr 20fr 40fr 10fr;
     gap: 10px;
 }
 
-header{
+header {
     border: 3px solid black;
     display: flex;
     flex-direction: row;
@@ -15,28 +15,40 @@ header{
     align-items: center;
 }
 
-.bild-rubrik{
+.bild-rubrik {
     height: 58px;
     width: 58px;
 }
 
-#ruta-1{
-/*     grid-column: 2/3;
-    grid-row: 1/2;
- */
- grid-column: 1/2;
- grid-row: 2/3;
+#ruta-1 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    text-align: center;
+    margin-top: 20px;
 }
 
-#bild-1{
+#bild-1 {
     grid-row: 2/3;
     grid-column: 2/3;
     height: 200px;
     width: 400px;
 }
 
-#bild-2{
+#bild-2 {
     grid-row: 3/4;
     grid-column: 1/2;
     height: 100px;
+}
+
+#ruta-2{
+    border: 3px solid black;
+}
+
+#test{
+    border: 3px solid black;
+    margin-left: 100px;
+    width: 50%;
+    padding: 10px;
+    background-color: #FFA2A2;
+    width: 400px;
 }
