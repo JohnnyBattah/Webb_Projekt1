@@ -1,7 +1,7 @@
 body {
     display: grid;
     grid-template-columns: 2fr 2fr;
-    grid-template-rows: 15vh 20fr 20fr 30fr 10fr;
+    grid-template-rows: 15vh 20fr 20fr 28fr 5fr;
     gap: 10px;
     background-color: #FFDDFC;
 }
@@ -110,7 +110,6 @@ header {
 }
 
 main {
-    border: 3px solid black;
     grid-column: 1/3;
     grid-row: 4/5;
     margin-top: 20px;
@@ -132,3 +131,18 @@ main li {
     padding: 10px;
 }
 
+footer {
+    grid-column: 1/3;
+    grid-row: 5/6;
+    border: 3px solid black;
+    background-color: #265B58;
+    color: white;
+    text-align: center;
+    height: 75px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+footer p {
+    margin-top: 25px;
+}
