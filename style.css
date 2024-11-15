@@ -39,11 +39,12 @@ header {
 #information {
     border: 3px solid #265B58;
     border-radius: 5px;
-    margin-left: 100px;
-    width: 50%;
+    margin-left: 80px;
+    margin-top: 30px;
     padding: 20px;
     background-color: #FFA2A2;
-    width: 400px;
+    width: 500px;
+    height: 210px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -51,9 +52,9 @@ header {
     grid-row: 2/3;
     grid-column: 2/3;
     height: 250px;
-    width: 430px;
-    margin-left: 100px;
-    margin-top: 20px;
+    width: 520px;
+    margin-left: 20px;
+    margin-top: 50px;
     border: 3px solid #265B58;
     border-radius: 3px;
 }
@@ -62,8 +63,8 @@ header {
     grid-row: 3/4;
     grid-column: 1/2;
     height: 320px;
-    width: 440px;
-    margin-left: 100px;
+    width: 540px;
+    margin-left: 80px;
     border: 3px solid #265B58;
     border-radius: 3px;
 }
@@ -77,14 +78,15 @@ header {
 #ingredienser {
     border: 3px solid #265B58;
     border-radius: 5px;
-    margin-left: 100px;
+    margin-left: 20px;
     padding: 10px;
     background-color: #FFA2A2;
-    width: 410px;
+    width: 500px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 0;
 }
 
 #ingredienser ul{
